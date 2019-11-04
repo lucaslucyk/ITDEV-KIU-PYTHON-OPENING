@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import datetime
 
 def big_word(frase):

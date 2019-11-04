@@ -16,8 +16,8 @@ python test_kiu.py
 
 ## Funcionamiento
 
-### big_word(frase)
-El método recibe una frase y devuelve la palabra más larga. Ejemplo:
+### 1)a) Palabra más larga de una frase
+El método big_word(frase) recibe una frase y devuelve la palabra más larga. Ejemplo:
 ```python
 import kiu
 
@@ -25,15 +25,15 @@ kiu.big_word("El veloz murciélago hindú comía feliz cardillo y kiwi")   # ret
 kiu.big_word("Un bebé muy pequeño estaba llorando")     # retorna "llorando"
 ```
 
-### ordenar_lista(lista)
-El método recibe una lista de enteros y retorna la misma lista ordenada de menor a mayor. La misma no utiliza el método "sorted"
+### 1)b) Ordenar una lista
+El método ordenar_lista(lista) recibe una lista de enteros y retorna la misma lista ordenada de menor a mayor. La misma no utiliza el método "sorted"
 ```python
 import kiu
 
 kiu.ordenar_lista([1, 20, 54, 33, -15, 7])  # retorna [-15, 1, 7, 20, 33, 54]
 ```
 
-### Transporte de cargas
+### 2) Transporte de cargas
 Para esta problemática, se deben realizar los siguientes pasos:
 1. Crear una aerolinea con el nombre deseado.
 2. Agregar los clientes correspondientes.
@@ -61,7 +61,7 @@ Consideraciones:
 3. Las fechas pueden ser indicadas como str con formato "YYYY-MM-DD" o una instancia de datetime.date.
 4. La salida de recaudado_por_fecha() será un dict {"Paquetes": cantidad (int), "Monto recaudado": monto (int)}
 
-### Diferencias en itinerarios
+### 3) Diferencias en itinerarios
 Para esta problemática, se deben realizar los siguientes pasos:
 1. Instanciar un objeto de clase Itinerario.
 2. Agregar las conexiones del itinerario original mediante el método add_conection(Conexion).

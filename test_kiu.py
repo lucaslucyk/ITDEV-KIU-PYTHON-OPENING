@@ -84,6 +84,7 @@ class TestingItinerarios(unittest.TestCase):    #Punto 3
             "original": [kiu.Conexion("LIM", "LPB", "AA"), kiu.Conexion("LPB", "UYU", "AA")],
             "reprogramado": [kiu.Conexion("LIM", "EZE", "AA"), kiu.Conexion("EZE", "UYU", "AA")]
         }]
+
         self.assertListEqual(viaje.diferencias, res)
 
     def test_change_transporter(self):
@@ -109,6 +110,7 @@ class TestingItinerarios(unittest.TestCase):    #Punto 3
             "reprogramado": [kiu.Conexion("LPB", "LIM", "LT")],
         }
         ]
+        
         self.assertListEqual(viaje.diferencias, res)
 
 if __name__ == '__main__':

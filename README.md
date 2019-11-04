@@ -8,9 +8,11 @@ git clone https://github.com/lucaslucyk/ITDEV-KIU-PYTHON-OPENING
 ```
 2. Ubicar en la carpeta del proyecto deseado.
 
-## Funcionamiento del módulo
+## Funcionamiento de los módulos
+
+### big_word(frase)
 1. El método big_word(frase) recibe una frase y devuelve la palabra más larga. Ejemplo:
-```
+```python
 import kiu
 
 kiu.big_word("El veloz murciélago hindú comía feliz cardillo y kiwi")   # retorna "murciélago"
